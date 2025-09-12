@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+     <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- Style -->
+     <link rel="stylesheet" href="style.css">
+     <!-- Title -->
+    <title>Weather app</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="weather">
+                
+                    <div class="title">
+                        <div class="row1">
+                            <input type="text" placeholder="Enter city name" name="search" class="city">
+                            <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                        <h5 class="error"></h5>
+                    </div>
+                    <div class="weather-infos">
+                        
+                    <img class="nature" src="">
+                    
+                    <h1 id="temp"></h1>
+                    <p id="city_name"></p>
+                    <div class="row2">
+                        <div>
+                            <img src="images/humidity.png" alt="humidity icon">
+                            <div class="info">
+                                <h4 class="humidity"></h4>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="images/wind.png" alt="wind icon">
+                            <div class="info">
+                                <h4 class="wind"></h4>
+                                <p>Wind speed</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row3">
+                        <button id="" class="btn savebtn">Save data</button>
+                        <button id="" class="btn resetbtn">reset data</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Script -->
+     <script src="script.js"></script>
+</body>
+</html>

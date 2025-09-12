@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins','sans-serif';
+    box-sizing: border-box;
+}
+
+/* Utility Classes */
+
+.weather .weather-infos .row3 .btn {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    height: 100vh;
+}
+
+.weather {
+    background:url('images/bg.jpg') center/cover;
+    min-width: 450px;
+    max-width: 700px;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.weather img{
+    width:30px;
+}
+.weather .row1  {
+    width: 100%;
+}
+.weather .row1 input {
+    width: 80%;
+    padding:  10px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+
+.weather .row1 .btn {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.weather .nature {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.weather h1 {
+   margin-bottom: 15px;
+}
+
+.weather p {
+   font-size: 28px;
+}
+
+.weather .row2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.weather .info p {
+    font-size: 15px;
+}
+
+.weather .row2 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather .info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.weather-infos {
+    display: none;
+}
+
+.weather .weather-infos .row3 {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.weather .weather-infos .row3 .savebtn {
+    background-color: rgb(73, 186, 73);
+    transition: all 0.5s;
+}
+.weather .weather-infos .row3 .savebtn:hover {
+    background-color: green;
+}
+
+.weather .weather-infos .row3 .resetbtn {
+    background-color: red;
+    transition : all 0.5s;
+}
+.weather .weather-infos .row3 .resetbtn:hover {
+    background-color: rgb(158, 13, 13);
+}
+
+.error {
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 15px;
+
+}

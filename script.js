@@ -27,7 +27,7 @@ async function weather () {
         error.innerHTML = 'Enter a valid city name'
     } else {  
         error.innerHTML = '';
-          city.innerHTML = data.name;
+          city.innerHTML = input.value;
     temperatue.innerHTML = Math.trunc(data.main.temp) + '°C';
     humidity.innerHTML = data.main.humidity + ' %';
     wind.innerHTML = data.wind.speed + ' km/h';
@@ -98,7 +98,7 @@ savebtn.addEventListener('click',() =>{
 
 resetbtn.addEventListener('click',() => {
     localStorage.clear();
-    weather.style.display = 'none';
+    weatherinfo.style.display = 'none';
 })
   
 // get from local storage : 
